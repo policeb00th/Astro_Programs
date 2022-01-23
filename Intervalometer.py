@@ -12,6 +12,6 @@ start_time=int(input("Enter start timer:-"))
 time.sleep(start_time)
 for shot_no in range(num_shots):
     camera.do(Actions.actTakePicture)
-    print(shot_no+1+ " photo taken out of "+ num_shots)
+    print(shot_no+1," photo taken out of ", num_shots)
     time.sleep(delay_time)
 print("Done")
